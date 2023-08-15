@@ -1,0 +1,79 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(133deg, blue, rgb(1, 1, 41), rgb(0, 0, 0));
+    background-size: cover;
+    height: 100%;
+    width: 100vh;
+ }
+
+.logo a{
+
+    color: rgb(222, 237, 250);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 70px;
+    margin: 0 20rem;
+    margin-left: -1.3rem;
+    text-decoration: none;
+}
+
+.logo:hover a{
+    color: #33f7f7;
+}
+
+nav {
+    display: inline-flex;
+    margin-top: -40.8rem;
+    margin-left: 0rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 0px 6%;
+    position: fixed;
+    backdrop-filter: blur(15px);
+    border-bottom: 3px solid  rgba(240, 255, 255, 0.09);
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    margin-right: -7rem;
+}
+
+ul a {
+    text-decoration: none;
+}
+  
+nav ul {
+    display: flex;
+    margin-left: 29rem;
+}
+
+nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 11px;
+    margin-right: 1.5rem;
+    padding: 0px 27px;
+    display: flex;
+    font-size: 21px;
+    font-weight: 600;
+    color: #d6fdfd;
+}
+
+nav ul li a:hover,.main-text a:hover {
+    background: rgba(240, 255, 255, 0.163);
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+
+.bottomNav1{
+    color: #d6fdfd;
+    margin-top: 40.9rem;   
+}
+
+.u-url{
+    color: #d6fdfd;
+}
