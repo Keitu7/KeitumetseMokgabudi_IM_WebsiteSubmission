@@ -23,7 +23,7 @@ body{
 
 nav {
     display: inline-flex;
-    margin-top: -40.8rem;
+    margin-top: -7rem;
     margin-left: 0rem;
     align-items: center;
     height: 70px;
@@ -68,12 +68,101 @@ nav ul li a:hover,.main-text a:hover {
     transition: 0.2s;
 }
 
+.imageContainer{
+    border: 1px solid;
+    height: 31rem;
+    width: 61rem;
+    background-size: cover;
+    margin-left: 4rem;
+    margin-top: 7rem;
+}
+
+.heading{
+    height: 20rem;
+    width: 27rem;
+    border: 1px solid rgba(245, 222, 179, 0);
+    margin-top: -20.1rem;
+    margin-left: 17.5rem;
+}
+
+.heading h1{
+    color: #d6fdfd;
+    font-size: 8.5rem;
+    margin-top: 10.5rem;
+}
+
+.button1{
+    height: 31rem;
+    width: 24rem;
+    border: 1px solid rgba(245, 222, 179, 0);
+    margin-top: -31rem;
+    margin-left: 69rem;
+}
+
+#blog a{
+    text-decoration: none;
+    color: #d6fdfd;
+}
+
+#blog {
+    background: #d6fdfd00;
+    height: 3.5rem;
+    width: 10rem;
+    font-size: 3rem;
+    padding: 0.9rem;
+    padding-top: 0.8rem;
+    padding-left: 3.4rem;
+    margin-top: 0rem;
+    margin-left: 4rem;
+    border-radius: 3px;
+}
+
+#blog:hover{
+    background: rgba(240, 255, 255, 0.163);
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+#design a{
+    text-decoration: none;
+    color: #d6fdfd;
+}
+
+#design {
+    background: #d6fdfd00;
+    height: 4rem;
+    width: 13rem;
+    font-size: 3rem;
+    padding: 0.9rem;
+    padding-top: 0.8rem;
+    padding-left: 3rem;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    border-radius: 3px;
+}
+
+#design:hover{
+    background: rgba(240, 255, 255, 0.163);
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+
 
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 40.9rem;   
+    margin-top: 3.85rem; 
+    display: inline-flex;
 }
 
 .u-url{
     color: #d6fdfd;
+    display: inline-flex;
+    margin-left: 2rem;
+}
+
+.u-url:hover{
+    text-decoration-line: underline;
 }
