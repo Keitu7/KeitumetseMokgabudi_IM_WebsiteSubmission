@@ -23,7 +23,7 @@ body{
 
 nav {
     display: inline-flex;
-    margin-top: -6rem;
+    margin-top: -7rem;
     margin-left: 0rem;
     align-items: center;
     height: 70px;
@@ -125,9 +125,19 @@ img {
     margin-top: -30rem;
 }
 
+a{
+    margin-top: 2rem;
+    margin-left: 60rem;
+    color: rgb(1, 1, 121);
+}
+
+a:hover{
+    color: #d6fdfd;
+}
+
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 5.66rem; 
+    margin-top: 2.5rem; 
     display: inline-flex;
 }
 
