@@ -165,6 +165,12 @@ nav ul li a:hover,.main-text a:hover {
     color: #d6fdfd;
 }
 
+button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
 #para6{
     margin-top: 3rem;
     color: #d6fdfd;
