@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: linear-gradient(133deg, rgb(1, 1, 118), rgb(1, 1, 41), rgb(0, 0, 0));
@@ -26,7 +28,7 @@ body{
     
 }
 
-.logo:hover a{
+.u-logo:hover a{
     color: #33f7f7;
 }
 

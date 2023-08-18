@@ -157,12 +157,12 @@ nav ul li a:hover,.main-text a:hover {
     display: inline-flex;
 }
 
-.u-url{
+.button{
     color: #d6fdfd;
     display: inline-flex;
     margin-left: 2rem;
 }
 
-.u-url:hover{
+.button:hover{
     text-decoration-line: underline;
 }

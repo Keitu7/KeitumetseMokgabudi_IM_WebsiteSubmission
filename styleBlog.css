@@ -46,7 +46,7 @@ ul a {
   
 nav ul {
     display: flex;
-    margin-left: 29rem;
+    margin-left: 21rem;
 }
 
 nav ul li a {
@@ -186,12 +186,12 @@ nav ul li a:hover,.main-text a:hover {
     display: inline-flex;
 }
 
-.u-url{
+.button{
     color: #d6fdfd;
     display: inline-flex;
     margin-left: 2rem;
 }
 
-.u-url:hover{
+.button:hover{
     text-decoration-line: underline;
 }
