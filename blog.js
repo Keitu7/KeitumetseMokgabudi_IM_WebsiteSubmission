@@ -1,25 +1,21 @@
-let noOfCharac = 1465; 
-let contents = document.querySelectorAll(".content");
-contents.forEach(content => {
+//Listing all attributes with the name expand-more
+document.addEventListener('DOMContentLoaded', () => {
+    const expandsMore = document.querySelectorAll ('[expand-more]')
 
-    //here we want to check when the text length is less than 165 (number of Characters)...then hide the rest of the text//
-    if (content.textContent.length < noOfCharac)
-    {
-        content.nextElementSibling.style.display = "none";
-    }
-    else{
-        let displayText = content.textContent.slice
-        (0,noOfCharac);
-        let moreText = content.textContent.slice 
-        (noOfCharac);
-
-        content.innerHTML = `${displayText}<span class="ellipses">...</span><span class="hide more">${moreText}</span>`;
+    //Creating a function for expanding
+    function expanding(){
+        const showContent = document.getElementById(this.dataset.target)
+        if (showContent.classList.contains('expand-active')){
+            this.innerHTML=this.dataset.showtext;
+        }else 
+        {
+            this.innerHTML=this.dataset.hidetext
+        }
+        showContent.classList.toggle('expand-active')
     }
 
-    function readMore(btn){
-        let dataBlog = btn.parentElement; 
-        dataBlog.querySelector(".ellipses").classList.toggle
-        ("hide");
-        btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
-    }
+    //adding event listener for each expand mores used
+    expandsMore.forEach(expandMore => {
+        expandMore.addEventListener('click', expanding)
+    })
 })
