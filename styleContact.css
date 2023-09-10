@@ -123,6 +123,7 @@ img {
     width: 24rem;
     margin-left: 60rem;
     margin-top: -30rem;
+    transition: ease-in-out, 8s;
 }
 
 a{
