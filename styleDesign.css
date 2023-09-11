@@ -266,7 +266,7 @@ button:hover{
 
 /*Heading Revised styleguide*/
 .headingSec2{
-    border: 3px solid #d6fdfdd3;
+    border: 3px solid #d6fdfd00;
     height: 4rem;
     width: 49rem;
     margin-top: -86rem;
@@ -282,7 +282,7 @@ button:hover{
 }
 
 .dataBlog3{
-    border: 3px solid rgba(255, 255, 255, 0.907);
+    border: 3px solid rgba(255, 255, 255, 0);
     height: 40rem;
     width: 70rem;
     margin-top: 0rem;
@@ -298,14 +298,32 @@ button:hover{
 
 /*div white div block for Planning documentation for DV*/
 .block{
-    border: 3px solid rgba(255, 255, 255, 0.907);
-    height: 40rem;
+    border: 3px solid rgba(255, 255, 255, 0);
+    height: 100rem;
     width: 70rem;
     margin-top: 0rem;
     margin-left: 13rem;
 }
 
+#doc1{
+    color: #d6fdfd;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+#doc2{
+    color: #d6fdfd;
+    font-size: 17px;
+    margin-top: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#doc3{
+    color: #d6fdfd;
+    font-size: 17px;
+    margin-top: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .bottomNav1{
     color: #d6fdfd;
