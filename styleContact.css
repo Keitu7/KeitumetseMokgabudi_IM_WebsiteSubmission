@@ -46,7 +46,7 @@ ul a {
   
 nav ul {
     display: flex;
-    margin-left: 29rem;
+    margin-left: 34rem;
 }
 
 nav ul li a {
@@ -102,7 +102,7 @@ p{
     border: 3px solid #d6fdfd00;
     height: 4rem;
     width: 20rem;
-    margin-top: 1-2rem;
+    margin-top: 3.7rem;
     margin-left: 20rem;
 }
 
@@ -123,7 +123,6 @@ img {
     width: 24rem;
     margin-left: 60rem;
     margin-top: -30rem;
-    transition: ease-in-out, 8s;
 }
 
 a{
@@ -138,7 +137,7 @@ a:hover{
 
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 2.5rem; 
+    margin-top: 3.65rem; 
     display: inline-flex;
 }
 

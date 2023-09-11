@@ -100,16 +100,16 @@ nav ul li a:hover,.main-text a:hover {
     margin-left: 40rem;*/
 }
 
-.dataBlog{
+/*.dataBlog{
     border-bottom: 3px solid rgba(255, 255, 255, 0.389);
     border-left: 3px solid rgba(255, 255, 255, 0.389);
     height: 25rem;
     width: 47rem;
     margin-top: -1rem;
     margin-left: 13rem;
-}
+}*/
 
-#dataBlock{
+/*#dataBlock{
     border: 3px solid rgba(255, 255, 255, 0.389);
     height: 16rem;
     width: 30rem;
@@ -135,7 +135,7 @@ nav ul li a:hover,.main-text a:hover {
     font-size: 2rem;
     margin-top: 0.5rem;
     /*margin-top: 7rem;
-    margin-left: 40rem;*/
+    margin-left: 40rem;
 }
 
 .dataBlog2{
@@ -158,7 +158,7 @@ nav ul li a:hover,.main-text a:hover {
 #dataBlock2 p{
     color: #d6fdfd;
     font-size: 2rem;
-}
+}*/
 
 
 .bottomNav1{

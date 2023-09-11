@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataVisuali</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3.0.0/dist/d3-scale-chromatic.min.js"></script>
     <link rel="stylesheet" href="styleDataVisual.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
@@ -25,21 +27,9 @@
         <section class="e-content">
             <div class="heading"><h1>Data Visualisations</h1></div>
 
-            <div class="p-name headingSec"><h2>Graph 1</h2></div>
-            <article class="dataBlog"></article>
-            <article id="dataBlock" class="u-photo">
-                <p>
-                    Text information with reference to the statistical information on the presented graph.
-                </p>
-            </article>
+            <div class="p-name headingSec"><h2>Mini-Bubble Graph</h2></div>
+            <section id="root"></section>
 
-            <div class="p-name headingThir"><h2>Graph 2</h2></div>
-            <article class="dataBlog2"></article>
-            <article id="dataBlock2" class="u-photo">
-                <p>
-                    Image relating to the statistics on the graph (on the right).
-                </p>
-            </article>
         </section>
     </main>
 
@@ -51,4 +41,5 @@
     </footer> 
     
 </body>
+<script src="dataVisuali.js"></script>
 </html>
