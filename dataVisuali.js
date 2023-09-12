@@ -1,6 +1,6 @@
 
 //DIMENSIONS
-let HEIGHT = 500,
+let HEIGHT = 900,
     WIDTH = 500,
     MARGIN = 40;
 

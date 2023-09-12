@@ -96,9 +96,75 @@ nav ul li a:hover,.main-text a:hover {
     color: #d6fdfd;
     font-size: 2rem;
     margin-top: 0.5rem;
+    width: 70rem;
     /*margin-top: 7rem;
     margin-left: 40rem;*/
 }
+
+.box1{
+    margin-top: -1rem;
+    margin-left: 81rem;
+    width: 270px;
+    height: 297px;
+    padding: 2rem 1rem;
+    border-left: 3px solid #00ffff;
+    position: relative;
+    display:flex;
+    align-items: flex-end;
+}
+
+.text1{
+    color: #d6fdfd;
+    font-size: 30px;
+}
+
+.headingSec2{
+    border: 3px solid #d6fdfd00;
+    height: 4rem;
+    width: 43rem;
+    margin-top: 24rem;
+    margin-left: 35rem;
+}
+
+.headingSec2 h2{
+    color: #d6fdfd;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    width: 70rem;
+    /*margin-top: 7rem;
+    margin-left: 40rem;*/
+}
+
+.box2{
+    margin-top: 11rem;
+    margin-left: 6rem;
+    width: 270px;
+    height: 290px;
+    padding: 0rem 1rem;
+    border-left: 3px solid #00ffff;
+    position: relative;
+    display:flex;
+    align-items: flex-end;
+}
+
+.text2{
+    color: #d6fdfd;
+    font-size: 27px;
+}
+
+span{
+    color: #33f7f7;
+    font-size: 70px;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+span:hover{
+    font-size: 77px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
 
 /*.dataBlog{
     border-bottom: 3px solid rgba(255, 255, 255, 0.389);
@@ -163,7 +229,7 @@ nav ul li a:hover,.main-text a:hover {
 
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 24rem; 
+    margin-top: 0rem; 
     display: inline-flex;
 }
 
