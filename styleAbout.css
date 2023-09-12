@@ -46,7 +46,7 @@ ul a {
   
 nav ul {
     display: flex;
-    margin-left: 29rem;
+    margin-left: 35rem;
 }
 
 nav ul li a {
@@ -71,7 +71,7 @@ nav ul li a:hover,.main-text a:hover {
 .imageContainer{
     flex: auto;
     border: 1px solid;
-    height: 31rem;
+    height: 34rem;
     width: 61rem;
     background-size: cover;
     margin-left: 4rem;
@@ -154,7 +154,7 @@ nav ul li a:hover,.main-text a:hover {
 
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 8.7rem; 
+    margin-top: 5.72rem; 
     display: inline-flex;
 }
 
