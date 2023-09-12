@@ -163,7 +163,7 @@ nav ul li a:hover,.main-text a:hover {
     display: inline-block;
     font-size: 14vw;
     font-weight: 700;
-    margin-top: 65vw;
+    margin-top: 80vw;
     color: #d6fdfd;
     letter-spacing: 3vw;
     text-shadow: 0 14px 25px rgba(0, 0, 0, 0.199);
@@ -402,7 +402,7 @@ nav ul li a:hover,.main-text a:hover {
     color: #33f7f7;
     font-size: 70px;
     margin-top: 39rem;
-    margin-left: -8rem;
+    margin-left: -5rem;
 }
 
 .number1:hover{

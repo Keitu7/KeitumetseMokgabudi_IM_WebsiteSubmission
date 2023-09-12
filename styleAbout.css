@@ -46,7 +46,7 @@ ul a {
   
 nav ul {
     display: flex;
-    margin-left: 35rem;
+    margin-left: 30rem;
 }
 
 nav ul li a {
@@ -154,7 +154,7 @@ nav ul li a:hover,.main-text a:hover {
 
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 5.72rem; 
+    margin-top: 5rem; 
     display: inline-flex;
 }
 
