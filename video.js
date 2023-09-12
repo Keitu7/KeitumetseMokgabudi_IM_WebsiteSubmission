@@ -1,4 +1,4 @@
-//making the video stop during when screen not on display in viewport//
+//making the video stop when screen is not on display in viewport//
 let targets = {
     root: null,
     rootMargin: '0rem',
