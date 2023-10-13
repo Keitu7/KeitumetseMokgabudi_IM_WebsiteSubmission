@@ -298,9 +298,9 @@ button:hover{
 
 /*div white div block for Planning documentation for DV*/
 .block{
-    border: 3px solid rgba(255, 255, 255, 0.799);
-    height: 180rem;
-    width: 70rem;
+    border: 3px solid rgba(255, 255, 255, 0);
+    height: 183rem;
+    width: 73rem;
     margin-top: 0rem;
     margin-left: 13rem;
 }
@@ -314,7 +314,7 @@ button:hover{
 
 #doc1{
     color: #d6fdfd;
-    font-size: 16.8px;
+    font-size: 17px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -332,16 +332,34 @@ button:hover{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*the third block for planning docu for data art*/
+
 .interactive1{
-    height: 30rem;
-    width: 45rem;
+    height: 35rem;
+    width: 55rem;
     margin-top: 1rem;
     margin-left: 0rem;
 }
 
+.interactive2{
+    height: 24rem;
+    width: 48rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+.block2{
+    border: 3px solid rgba(255, 255, 255, 0);
+    height: 148rem;
+    width: 73rem;
+    margin-top: -1rem;
+    margin-left: 13rem;
+}
+
+
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 120rem; 
+    margin-top: 10rem; 
     display: inline-flex;
 }
 
