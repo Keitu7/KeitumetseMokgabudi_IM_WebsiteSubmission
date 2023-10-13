@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataVisuali</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-    <script src=" https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3.0.0/dist/d3-scale-chromatic.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <link rel="stylesheet" href="styleDataVisual.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
@@ -28,9 +27,13 @@
             <div class="heading"><h1>Data Visualisations</h1></div>
 
             <div class="p-name headingSec"><h2>Bar Graph on Sunlight Amount on Earth's Surface </h2></div>
+            <svg id="pack"></svg>
+            <div class="tooltip"></div>
+
+
             <article class="box1">
                 <p class="text1">
-                    This Graph should visualise where and how much sunlight fell on Earth's surface during the time period indicated. 
+                    This Graph intends to visualise where and how much sunlight fell on Earth's surface during the time period indicated. 
                     Scientists call this measure solar insolation.
                 </p>
             </article>
@@ -57,4 +60,5 @@
     
 </body>
 <script src="dataVisuali.js"></script>
+<script src="dataVisuali2.js"></script>
 </html>

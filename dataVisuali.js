@@ -5,7 +5,8 @@ let HEIGHT = 900,
     MARGIN = 40;
 
 //CREATING SVG
-let svg = d3
+let svg = d3.select("#pack").attr("HEIGHT", HEIGHT).attr("WIDTH", WIDTH);
+let colourScale = d3
    .select("section")
    .append("svg")
    .attr("height", HEIGHT + MARGIN + MARGIN)
@@ -40,10 +41,7 @@ function createCircles(data) {
 }
 
 //IMPLEMENTING THE DATA
-d3.csv(
-
-).then(function (data) {
-    createXAxis(data);
-    createYAxis();
-    createCircles(data);
+d3.json("data.json").then((data) => {
+    createCircles()
 });
+
