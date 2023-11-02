@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataArt</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
     <link rel="stylesheet" href="styleDataArt.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
@@ -25,24 +26,19 @@
         <section class="e-content">
             <div class="p-name heading"><h1>Data Art</h1></div>
 
-            <div class="p-name headingSec"><h2>Section 1</h2></div>
+            <div class="p-name headingSec"><h2>Bar Chart - GLOBAL TEMPERATURES</h2></div>
             <article class="e-content dataBlog">
+                <svg id="barChart"></svg>
+                <div class="tooltip"></div>
                 <article id="dataBlock">
                     <p>
-                        Text information concerning the image (which will be placed) - description about the data art.
+                        Using three-toned colour schemes (colours Yellow, Orange, and Red) illustrates how each shade of each colour demonstrates a progression of the units. 
+                        The raw data represents the changes in the Earth's global temperature throughout the years. 
+                        Each shade/stripe of the colours Yellow, Orange, and Red, represents the average temperature for a single year (University of Reading, 2023).
                     </p>
                 </article>
             </article>
 
-            <div class="p-name headingSec2"><h2>Section 2</h2></div>
-            <article class="e-content dataBlog2">
-                <article id="dataBlock2">
-                    <p class="h-enrty p-summary">
-                        Data Art description.
-                    </p>
-                </article>
-
-            </article>
         </section>
     </main>
 
@@ -54,4 +50,5 @@
     </footer> 
     
 </body>
+<script src="dataArt.js"></script>
 </html>

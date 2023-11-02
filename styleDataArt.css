@@ -101,19 +101,16 @@ nav ul li a:hover,.main-text a:hover {
 }
 
 .dataBlog{
-    border: 3px solid rgba(255, 255, 255, 0.389);
-    height: 45rem;
+    border: 3px solid rgba(255, 255, 255, 0);
+    height: 40rem;
     width: 70rem;
     margin-top: -1rem;
     margin-left: 13rem;
 }
 
 #dataBlock{
-    border: 3px solid rgba(255, 255, 255, 0.389);
-    height: 15rem;
-    width: 65rem;
-    margin-top: 29rem;
-    margin-left: 2rem;
+    border: 3px solid rgba(255, 255, 255, 0); 
+    margin-top: -1rem;
 }
 
 #dataBlock p{
@@ -121,47 +118,18 @@ nav ul li a:hover,.main-text a:hover {
     font-size: 2rem;
 }
 
-.headingSec2{
-    border: 3px solid #d6fdfd00;
-    height: 4rem;
-    width: 49rem;
-    margin-top: 4rem;
-    margin-left: 13rem;
+svg {
+    background-color: rgba(245, 245, 245, 0.144);
 }
-
-.headingSec2 h2{
-    color: #d6fdfd;
-    font-size: 2rem;
-    margin-top: 0.5rem;
-    /*margin-top: 7rem;
-    margin-left: 40rem;*/
-}
-
-
-.dataBlog2{
-    border: 3px solid rgba(255, 255, 255, 0.389);
-    height: 45rem;
-    width: 70rem;
-    margin-top: -1rem;
-    margin-left: 13rem;
-}
-
-#dataBlock2{
-    border: 3px solid rgba(255, 255, 255, 0.389);
-    height: 15rem;
-    width: 65rem;
-    margin-top: 29rem;
-    margin-left: 2rem;
-}
-
-#dataBlock2 p{
-    color: #d6fdfd;
-    font-size: 2rem;
+  
+#heatmap {
+    min-height: 40rem;
+    min-width: 70rem;
 }
 
 .bottomNav1{
     color: #d6fdfd;
-    margin-top: 10rem; 
+    margin-top: 30rem; 
     display: inline-flex;
 }
 
